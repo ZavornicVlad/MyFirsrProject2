@@ -1,3 +1,5 @@
+import java.io.PrintStream;
+
 public class Operators {
     public static void main(String[] args) {
         int sum1 = 100+50;
@@ -41,6 +43,16 @@ public class Operators {
             System.out.println("conditia este adevarata");
         }
         else System.out.println("conditia nu este adevarata");
+       //ex1 -varianta1
+        double result = 10*6;
+        System.out.println(result);
+        //ex1 -varianta2
+        System.out.println(10*6);
+        //ex2
+        System.out.println(10/2);
+        //ex3
+
+
 
 
 

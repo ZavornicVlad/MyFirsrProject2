@@ -7,10 +7,15 @@ public class OperatorsExercitii {
         System.out.println(var1+var2+var3+var4);
         System.out.println(var1*var2*var3*var4);
         System.out.println(var4/var2);
+        System.out.println(var4%var2);
 
         var1++;var1++;var1++;
+        for (int i=0;i<3;i++){
+            var1+=3;}
 
         System.out.println(var1);
+
+        for (int i=0;i<2;i++){var2-=2;}
 
         var2 = var2-2;
         var2--;var2--;
